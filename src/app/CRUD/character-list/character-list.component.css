@@ -1,0 +1,47 @@
+/* Contenedor principal de la página */
+.page-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilos de la lista de personajes */
+.character-list {
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.list-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.characters {
+  list-style-type: none;
+  padding: 0;
+}
+
+.character-item {
+  background-color: #ecf0f1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-name {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.character-comic {
+  color: #34495e;
+}
+
